@@ -1,0 +1,17 @@
+{block js}
+    <script src="{$baseUri}/js/ajax.js"></script>
+{/block}
+
+{block content}
+	
+	<div class="radreply-add-form">
+		<h1><i class="icon-lock"></i> {_"Create new permission"}</h1>
+
+		<div class="box">
+			{include '../components/form.latte', form => $presenter[radreplyAddForm]}
+		</div>
+	</div>
+
+	<h1><i class="icon-lock"></i> {_"User permissions"}</h1>
+    {control gridPerm}
+{/block}

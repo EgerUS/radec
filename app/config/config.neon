@@ -1,0 +1,63 @@
+#
+# SECURITY WARNING: it is CRITICAL that this file & directory are NOT accessible directly via a web browser!
+#
+# If you don't protect this directory from direct web access, anybody will be able to see your passwords.
+# http://nette.org/security-warning
+#
+common:
+	gettextTranslator:
+		lang: cs
+		files:
+			radec: %appDir%/lang # for module Front and other non-specified modules
+		# optional with defaults
+		layout: horizontal # or: vertical
+		height: 450
+
+	parameters:
+		security:
+			salt: ra						# sul pro kryptovani hesel
+			sessionExpire: '+30 minutes'	# expirace prihlaseni
+			sessionLongExpire: '+30 days'	# expirace dlouhodobeho prihlaseni
+		user:
+			minPasswordLength: 6			# minimalni delka hesla
+			renew: 31536000					# (31536000 = 365 dni) o kolik sekund bude ucet uzivatele prodlouzen
+			renewExpire: 2678400			# (2678400 = 31 dni) povolime prodlouzeni uzivatelskeho uctu pokud expiruje za mene nez X sekund
+		baseUri:
+
+	dibi:
+		host: localhost
+		username: radius
+		password:
+		database: radius
+		lazy: true
+
+	php:
+		date.timezone: Europe/Prague
+		zlib.output_compression: yes
+
+	nette:
+		application:
+			errorPresenter: Error
+
+		session:
+			autoStart: smart
+			expiration: +30 days
+
+
+	services:
+		authenticator: Authenticator(%security.salt%)
+		userRepository: User\UserRepository
+		radgroupcheckRepository: Radgroupcheck\RadgroupcheckRepository
+		nasRepository: Nas\NasRepository
+		routerFactory: RouterFactory
+		router: @routerFactory::createRouter
+
+
+	factories:
+
+
+production < common:
+	parameters:
+		baseUri: /radec
+
+development < common:

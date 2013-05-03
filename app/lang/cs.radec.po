@@ -1,0 +1,918 @@
+# Gettext keys exported by GettextTranslator and Translation Panel
+# Created: 2013-05-03 11:10:32
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2013-05-03 11:10+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4 ? 1 : 2));\n"
+
+
+msgid "Account disabled"
+msgstr "Účet je zablokován"
+
+msgid "Account expired"
+msgstr "Účet expiroval"
+
+msgid "Account inactive"
+msgstr "Účet není aktivní"
+
+msgid "Actions"
+msgstr "Akce"
+
+msgid "Active from"
+msgstr "Aktivní od"
+
+msgid "Active from:"
+msgstr "Aktivní od:"
+
+msgid "Active to"
+msgstr "Aktivní do"
+
+msgid "Active to:"
+msgstr "Aktivní do:"
+
+msgid "Activity"
+msgstr "Aktivita"
+
+msgid "Are you sure you want to delete %i items ?"
+msgstr[0] "Opravdu chcete smazat %i záznam ?"
+msgstr[1] "Opravdu chcete smazat %i záznamy ?"
+msgstr[2] "Opravdu chcete smazat %i záznamů ?"
+
+msgid "Are you sure you want to delete %s items ?"
+msgstr[0] "Opravdu chcete smazat %s záznam ?"
+msgstr[1] "Opravdu chcete smazat %s záznamy ?"
+msgstr[2] "Opravdu chcete smazat %s záznamů ?"
+
+msgid "Are you sure you want to delete '%s %s %s' ?"
+msgstr "Opravdu chcete smazat '%s %s %s' ?"
+
+msgid "Are you sure you want to delete '%s' ?"
+msgstr "Opravdu chcete smazat '%s' ?"
+
+msgid "Attribute"
+msgstr "Atribut"
+
+msgid "Attribute must be at max %d characters long"
+msgstr[0] "Atribut může obsahovat maximálně %d znak"
+msgstr[1] "Atribut může obsahovat maximálně %d znaky"
+msgstr[2] "Atribut může obsahovat maximálně %d znaků"
+
+msgid "Attribute:"
+msgstr "Atribut:"
+
+msgid "Community"
+msgstr "Komunita"
+
+msgid "Community must be at max %d characters long"
+msgstr[0] "Komunita může obsahovat maximálně %d znak"
+msgstr[1] "Komunita může obsahovat maximálně %d znaky"
+msgstr[2] "Komunita může obsahovat maximálně %d znaků"
+
+msgid "Community:"
+msgstr "Komunita:"
+
+msgid "Confirm password:"
+msgstr "Potvrďte heslo:"
+
+msgid "Create"
+msgstr "Vytvořit"
+
+msgid "Create new NAS"
+msgstr "Vytvořit nový NAS"
+
+msgid "Create new group"
+msgstr "Vytvořit novou skupinu"
+
+msgid "Create new permission"
+msgstr "Vytvořit nové oprávnění"
+
+msgid "Create new user"
+msgstr "Vytvořit nového uživatele"
+
+msgid "Creation failed"
+msgstr "Vytvoření se nezdařilo"
+
+msgid "Crypt password:"
+msgstr "Šifrovat heslo:"
+
+msgid "Current password:"
+msgstr "Současné heslo:"
+
+msgid "Database data changes during modification. Please modify data again."
+msgstr "Během úprav došlo ke změně dat v databázi. Upravte prosím data znovu."
+
+msgid "Delete"
+msgstr "Smazat"
+
+msgid "Delete failed"
+msgstr "Smazání se nezdařilo"
+
+msgid "Deleted"
+msgstr "Smazáno"
+
+msgid "Description"
+msgstr "Popis"
+
+msgid "Description must be at max %d characters long"
+msgstr[0] "Popis může obsahovat maximálně %d znak"
+msgstr[1] "Popis může obsahovat maximálně %d znaky"
+msgstr[2] "Popis může obsahovat maximálně %d znaků"
+
+msgid "Description:"
+msgstr "Popis:"
+
+msgid "Disabled:"
+msgstr "Blokován:"
+
+msgid "Duration"
+msgstr "Trvání"
+
+msgid "Edit"
+msgstr "Upravit"
+
+msgid "Edit NAS"
+msgstr "Upravit NAS"
+
+msgid "Edit group"
+msgstr "Upravit skupinu"
+
+msgid "Edit user"
+msgstr "Upravit uživatele"
+
+msgid "Email must be at max %d characters long"
+msgstr[0] "Email může obsahovat maximálně %d znak"
+msgstr[1] "Email může obsahovat maximálně %d znaky"
+msgstr[2] "Email může obsahovat maximálně %d znaků"
+
+msgid "Email:"
+msgstr "E-mail:"
+
+msgid "Enter NAS IP..."
+msgstr "Zadejte NAS IP..."
+
+msgid "Enter NAS name..."
+msgstr "Zadejte název..."
+
+msgid "Enter attribute..."
+msgstr "Zadejte atribut..."
+
+msgid "Enter group name..."
+msgstr "Zadejte název skupiny..."
+
+msgid "Enter info about yourself..."
+msgstr "Zadejte info o své osobě..."
+
+msgid "Enter page:"
+msgstr "Zadejte stránku:"
+
+msgid "Enter secret..."
+msgstr "Zadejte secret..."
+
+msgid "Enter shortname..."
+msgstr "Zadejte stručný název..."
+
+msgid "Enter user description..."
+msgstr "Zadejte popis uživatele..."
+
+msgid "Enter user email..."
+msgstr "Zadejte email uživatele..."
+
+msgid "Enter user password..."
+msgstr "Zadejte heslo uživatele..."
+
+msgid "Enter username..."
+msgstr "Zadejte uživatelské jméno..."
+
+msgid "Enter value..."
+msgstr "Zadejte hodnotu..."
+
+msgid "Enter your email..."
+msgstr "Zadejte svůj email..."
+
+msgid "Enter your password..."
+msgstr "Zadejte své heslo..."
+
+msgid "Enter your username..."
+msgstr "Zadejte své uživatelské jméno..."
+
+msgid "Export all items"
+msgstr "Exportovat všechny záznamy"
+
+msgid "Fill in for password change..."
+msgstr "Vyplňte pro změnu hesla..."
+
+msgid "Group"
+msgstr "Skupina"
+
+msgid "Group '%s' cannot be deleted"
+msgstr "Skupina '%s' nemohla být smazána"
+
+msgid "Group '%s' contains users and cannot be deleted"
+msgstr "Skupina '%s' obsahuje uživatele a nemůže být smazána"
+
+msgid "Group '%s' successfully created"
+msgstr "Skupina '%s' byla úspěšně vytvořena"
+
+msgid "Group '%s' successfully deleted"
+msgstr "Skupina '%s' byla smazána"
+
+msgid "Group name"
+msgstr "Název skupiny"
+
+msgid "Group name must be at max %d characters long"
+msgstr[0] "Název skupiny může obsahovat maximálně %d znak"
+msgstr[1] "Název skupiny může obsahovat maximálně %d znaky"
+msgstr[2] "Název skupiny může obsahovat maximálně %d znaků"
+
+msgid "Group name:"
+msgstr "Název skupiny:"
+
+msgid "Group permissions"
+msgstr "Oprávnění skupiny"
+
+msgid "Group:"
+msgstr "Skupina:"
+
+msgid "Groups"
+msgstr "Skupiny"
+
+msgid "IP address"
+msgstr "IP adresa"
+
+msgid "Input data"
+msgstr "Vstupní data"
+
+msgid "Items %d - %d of %d"
+msgstr "Záznamy %d - %d of %d"
+
+msgid "Items per page"
+msgstr "Záznamů na stránku"
+
+msgid "Keep me signed in:"
+msgstr "Zůstat přihlášen/a:"
+
+msgid "Language"
+msgstr "Jazyk"
+
+msgid "List and edit"
+msgstr "Seznam a editace"
+
+msgid "Login form"
+msgstr "Přihlášení"
+
+msgid "Modification failed"
+msgstr "Změna nebyla provedena"
+
+msgid "NAS"
+msgstr "NAS"
+
+msgid "NAS '%s' successfully created"
+msgstr "NAS '%s' byl úspěšně vytvořen"
+
+msgid "NAS IP must be at max %d characters long"
+msgstr[0] "NAS IP může obsahovat maximálně %d znak"
+msgstr[1] "NAS IP může obsahovat maximálně %d znaky"
+msgstr[2] "NAS IP může obsahovat maximálně %d znaků"
+
+msgid "NAS name"
+msgstr "Název"
+
+msgid "NAS name must be at max %d characters long"
+msgstr[0] "Název může obsahovat maximálně %d znak"
+msgstr[1] "Název může obsahovat maximálně %d znaky"
+msgstr[2] "Název může obsahovat maximálně %d znaků"
+
+msgid "NAS name:"
+msgstr "Název:"
+
+msgid "NAS port must be at max %d characters long"
+msgstr[0] "NAS port může obsahovat maximálně %d znak"
+msgstr[1] "NAS port může obsahovat maximálně %d znaky"
+msgstr[2] "NAS port může obsahovat maximálně %d znaků"
+
+msgid "New"
+msgstr "Vytvořit"
+
+msgid "New password:"
+msgstr "Nové heslo:"
+
+msgid "Next"
+msgstr "Další"
+
+msgid "No results."
+msgstr "Žádné záznamy"
+
+msgid "Operator"
+msgstr "Operátor"
+
+msgid "Operator:"
+msgstr "Operátor:"
+
+msgid "Output data"
+msgstr "Výstupní data"
+
+msgid "Password must be at max %d characters long"
+msgstr[0] "Password může obsahovat maximálně %d znak"
+msgstr[1] "Password může obsahovat maximálně %d znaky"
+msgstr[2] "Password může obsahovat maximálně %d znaků"
+
+msgid "Password:"
+msgstr "Heslo:"
+
+msgid "Passwords must be at least %d characters long."
+msgstr[0] "Heslo musí obsahovat alespoň %d znak"
+msgstr[1] "Heslo musí obsahovat alespoň %d znaky"
+msgstr[2] "Heslo musí obsahovat alespoň %d znaků"
+
+msgid "Passwords must match"
+msgstr "Hesla se musí shodovat"
+
+msgid "Permission '%s %s %s %s' cannot be deleted"
+msgstr "Oprávnění '%s %s %s %s' nemohlo být smazáno"
+
+msgid "Permission '%s %s %s %s' deleted"
+msgstr "Oprávnění '%s %s %s %s' bylo smazáno"
+
+msgid "Permission '%s %s %s %s' successfully created"
+msgstr "Oprávnění '%s %s %s %s' bylo úspěšně vytvořeno"
+
+msgid "Permission '%s %s %s' cannot be deleted"
+msgstr "Oprávnění '%s %s %s' nemohlo být smazáno"
+
+msgid "Permission '%s %s %s' deleted"
+msgstr "Oprávnění '%s %s %s' bylo smazáno"
+
+msgid "Permission '%s %s %s' successfully created"
+msgstr "Oprávnění '%s %s %s' bylo úspěšně vytvořeno"
+
+msgid "Permissions"
+msgstr "Oprávnění"
+
+msgid "Please fill the missing email in your profile !"
+msgstr "Vyplňte prosím chybějící email ve Vašem profilu !"
+
+msgid "Please, describe you"
+msgstr "Zadejte prosím popis"
+
+msgid "Please, enter NAS IP"
+msgstr "Zadejte prosím NAS IP"
+
+msgid "Please, enter NAS name"
+msgstr "Zadejte prosím název"
+
+msgid "Please, enter attribute"
+msgstr "Zadejte prosím atribut"
+
+msgid "Please, enter description"
+msgstr "Zadejte prosím popis"
+
+msgid "Please, enter email"
+msgstr "Zadejte prosím email"
+
+msgid "Please, enter group name"
+msgstr "Zadejte prosím název skupiny"
+
+msgid "Please, enter password"
+msgstr "Zadejte prosím heslo"
+
+msgid "Please, enter secret"
+msgstr "Zadejte prosím secret"
+
+msgid "Please, enter shortname"
+msgstr "Zadejte prosím stručný název"
+
+msgid "Please, enter username"
+msgstr "Zadejte prosím uživatelské jméno"
+
+msgid "Please, enter value"
+msgstr "Zadejte prosím hodnotu"
+
+msgid "Please, enter your email address"
+msgstr "Zadejte prosím platnou emailovou adresu"
+
+msgid "Please, enter your password"
+msgstr "Zadejte prosím své heslo"
+
+msgid "Please, enter your username"
+msgstr "Zadejte prosím své uživatelské jméno"
+
+msgid "Please, select group"
+msgstr "Vyberte prosím skupinu"
+
+msgid "Please, select operator"
+msgstr "Vyberte prosím operátor"
+
+msgid "Please, select role"
+msgstr "Vyberte prosím oprávnění"
+
+msgid "Port must be in range %d to %d."
+msgstr "Port musí být v rozmezí %d až %d"
+
+msgid "Port must be integer."
+msgstr "Port musí být celé číslo"
+
+msgid "Ports"
+msgstr "Porty"
+
+msgid "Ports:"
+msgstr "Porty:"
+
+msgid "Previous"
+msgstr "Předchozí"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Renew to:"
+msgstr "Prodloužit do:"
+
+msgid "Reset"
+msgstr "Zrušit"
+
+msgid "Role:"
+msgstr "Oprávnění:"
+
+msgid "Save"
+msgstr "Uložit"
+
+msgid "Search"
+msgstr "Hledat"
+
+msgid "Secret must be at max %d characters long"
+msgstr[0] "Secret může obsahovat maximálně %d znak"
+msgstr[1] "Secret může obsahovat maximálně %d znaky"
+msgstr[2] "Secret může obsahovat maximálně %d znaků"
+
+msgid "Select some row"
+msgstr "Vyberte nějaký řádek"
+
+msgid "Select:"
+msgstr "Vyberte:"
+
+msgid "Selected..."
+msgstr "Vybrané ..."
+
+msgid "Shortname"
+msgstr "Stručný název"
+
+msgid "Shortname must be at max %d characters long"
+msgstr[0] "Stručný název může obsahovat maximálně %d znak"
+msgstr[1] "Stručný název může obsahovat maximálně %d znaky"
+msgstr[2] "Stručný název může obsahovat maximálně %d znaků"
+
+msgid "Shortname:"
+msgstr "Stručný název:"
+
+msgid "Sign in"
+msgstr "Přihlásit"
+
+msgid "Sign out"
+msgstr "Odhlásit"
+
+msgid "Signed out due to inactivity"
+msgstr "Došlo k odhlášení z důvodu neaktivity"
+
+msgid "Start time"
+msgstr "Začátek"
+
+msgid "Stop time"
+msgstr "Konec"
+
+msgid "Succesfully modified"
+msgstr "Změna byla úspěšně provedena"
+
+msgid "Timeout occured, please try it again"
+msgstr "Vypršel časový limit, zkuste to prosím znovu"
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "Type must be at max %d characters long"
+msgstr[0] "Typ může obsahovat maximálně %d znak"
+msgstr[1] "Typ může obsahovat maximálně %d znaky"
+msgstr[2] "Typ může obsahovat maximálně %d znaků"
+
+msgid "Type:"
+msgstr "Typ:"
+
+msgid "User '%s' successfully created"
+msgstr "Uživatel '%s' byl úspěšně vytvořen"
+
+msgid "User deleted"
+msgstr "Uživatel smazán"
+
+msgid "User permissions"
+msgstr "Oprávnění uživatele"
+
+msgid "User profile"
+msgstr "Profil uživatele"
+
+msgid "User profile updated"
+msgstr "Profil byl aktualizován"
+
+msgid "Username"
+msgstr "Uživatel"
+
+msgid "Username must be at max %d characters long"
+msgstr[0] "Uživatelské jméno může obsahovat maximálně %d znak"
+msgstr[1] "Uživatelské jméno může obsahovat maximálně %d znaky"
+msgstr[2] "Uživatelské jméno může obsahovat maximálně %d znaků"
+
+msgid "Username:"
+msgstr "Uživatelské jméno:"
+
+msgid "Users"
+msgstr "Uživatelé"
+
+msgid "Users activity"
+msgstr "Aktivita uživatelů"
+
+msgid "Valid from:"
+msgstr "Platnost od:"
+
+msgid "Valid to:"
+msgstr "Platnost do:"
+
+msgid "Value"
+msgstr "Hodnota"
+
+msgid "Value must be at max %d characters long"
+msgstr[0] "Hodnota může obsahovat maximálně %d znak"
+msgstr[1] "Hodnota může obsahovat maximálně %d znaky"
+msgstr[2] "Hodnota může obsahovat maximálně %d znaků"
+
+msgid "Value:"
+msgstr "Hodnota:"
+
+msgid "Wrong current password. Password was not changed."
+msgstr "Nesprávné současné heslo. Heslo nebylo změněno."
+
+msgid "Wrong password"
+msgstr "Nesprávné heslo"
+
+msgid "Wrong username"
+msgstr "Nesprávné uživatelské jméno"
+
+msgid "You do not have sufficient rights"
+msgstr "Nemáte dostatečná oprávnění"
+
+msgid "You have successfully signed in"
+msgstr "Byl/a jste úspěšně přihlášen/a"
+
+msgid "You have successfully signed out"
+msgstr "Byl/a jste úspěšně odhlášen/a"
+
+msgid "You must pick some date"
+msgstr "Vyberte prosím datum"
+
+msgid "Your account expires soon !"
+msgstr "Brzy vyprší platnost Vašeho účtu !"
+
+msgid "Česky"
+msgstr ""
+
+msgid "English"
+msgstr ""
+
+msgid "Secret:"
+msgstr ""
+
+msgid "Invert"
+msgstr ""
+
+msgid "Secret"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "10"
+msgstr ""
+
+msgid "20"
+msgstr ""
+
+msgid "30"
+msgstr ""
+
+msgid "50"
+msgstr ""
+
+msgid "100"
+msgstr ""
+
+msgid "Opravdu chcete smazat '10.135.68.0/24' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat '172.31.209.98' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat '188.175.0.0/16' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat '188.175.183.26' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat '213.180.47.0/24' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat '82.150.162.10' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat '90.182.20.85' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat '94.74.192.161' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat '94.74.192.225' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat '94.74.192.70' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat '94.74.228.180' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat '94.74.228.98' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'aaa' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'asdas' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'sadfsa' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'sss' ?"
+msgstr ""
+
+msgid "Please complete mandatory field."
+msgstr ""
+
+msgid "admin"
+msgstr ""
+
+msgid "user"
+msgstr ""
+
+msgid "LINUX"
+msgstr ""
+
+msgid "MIKROTIK"
+msgstr ""
+
+msgid "VPN"
+msgstr ""
+
+msgid "Port"
+msgstr ""
+
+msgid "NAS IP"
+msgstr ""
+
+msgid "Disabled"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Role"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'apriban' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'backup.ssh' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'dgruberova' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'dkominek' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'dkral.winbox' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'dturek' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'dude.winbox' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'edopitova' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'egosani' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'evvo.dfryc' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'evvo.jbalsanek' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'evvo.jbartunek' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'evvo.jkacerovsky' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'evvo.ksubrtova' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'evvo.lslama' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'evvo.lstrancky' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'evvo.mhenken' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'evvo.msramek' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'evvo.mvoltr' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'evvo.olemfeld' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'evvo.pkames' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'evvo.pkares' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'evvo.pknizak' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'evvo.pvydra' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'evvo.tslama' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'evvo.vstehno' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'fburianek' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'fburianek.winbox' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'ferda' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'fmotycka.vpn' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'ftehnik' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'grevis.jobdrzal' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'grevis.mgrohmann' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'grevis.pbaudys' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'grevis.priha' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'grevis.tomasova' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'habrahamova' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'ifaltus' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'ihoskovcova' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'ikantorovska' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'ojanu' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'okral' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'pbejsovec' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'portax' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'ppaprok' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'ppaprok.ssh' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'ppaprok.winbox' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'pplecity' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'ppyszko' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'pscholze.winbox' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'pvesela' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'pzimek' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'rbenatinsky' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'rbenatinsky.ssh' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'rbenatinsky.winbox' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'rgardner' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'rholik' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'rkorner' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'rplasovsky' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'rplasovsky.ssh' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'LINUX' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'MIKROTIK' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'VPN' ?"
+msgstr ""
+
+msgid "!~"
+msgstr ""
+
+msgid "=~"
+msgstr ""
+
+msgid "+="
+msgstr ""
+
+msgid "="
+msgstr ""
+
+msgid "=="
+msgstr ""
+
+msgid "NAS IP:"
+msgstr ""
+
+msgid "NAS port:"
+msgstr ""
+
+msgid "NAS port"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'MIKROTIK 10.10.10.10 1' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'MIKROTIK 2.2.2.2 345' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'MIKROTIK 4.4.4.4 999' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'MIKROTIK 6.6.6.6 111' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'MIKROTIK 7.7.7.7 333' ?"
+msgstr ""
+
+msgid "Opravdu chcete smazat 'MIKROTIK 9.9.9.9 234' ?"
+msgstr ""
+

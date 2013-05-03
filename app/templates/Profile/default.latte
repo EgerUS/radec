@@ -1,0 +1,49 @@
+
+{block content}
+
+<div class="profile-form">
+	<h1><i class="icon-user"></i> {_"User profile"}</h1>
+
+	<div class="box">
+		{form profileForm}
+		<table>
+			<tr n:class="$form['_username']->required ? required">
+				<th>{label _username /}</th><td>{input _username}</td>
+			</tr>
+			<tr n:class="$form['_role']->required ? required">
+				<th>{label _role /}</th><td>{input _role}</td>
+			</tr>
+			<tr n:class="$form['oldPassword']->required ? required">
+				<th>{label oldPassword /}</th><td>{input oldPassword}</td>
+			</tr>
+			<tr n:class="$form['newPassword']->required ? required">
+				<th>{label newPassword /}</th><td>{input newPassword}</td>
+			</tr>
+			<tr n:class="$form['confirmPassword']->required ? required">
+				<th>{label confirmPassword /}</th><td>{input confirmPassword}</td>
+			</tr>
+			<tr n:class="$form['email']->required ? required">
+				<th>{label email /}</th><td>{input email}</td>
+			</tr>
+			<tr n:class="$form['_datefrom']->required ? required">
+				<th>{label _datefrom /}</th><td>{input _datefrom}</td>
+			</tr>
+			<tr n:class="$form['_dateto']->required ? required">
+				<th>{label _dateto /}</th><td>{input _dateto}</td>
+			</tr>
+			{ifset $presenter->template->renew}
+			<tr n:class="$form['renew']->required ? required">
+				<th>{label renew /}</th><td><label for="frmprofileForm-renew" class="checkbox">{input renew} {$presenter->template->renew}</label></td>
+			</tr>
+			{/ifset}
+			<tr n:class="$form['desc']->required ? required">
+				<th>{label desc /}</th><td>{input desc}</td>
+			</tr>
+			<tr>
+				<td colspan="2" style='text-align: center;'>{input save}</td>
+			</tr>
+		</table>
+		{/form profileForm}
+	</div>
+</div>
+{/block}

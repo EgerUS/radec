@@ -1,0 +1,237 @@
+
+body {
+	font: 10px Verdana;
+	background: #3484d2;
+	color: #333;
+	margin: 38px auto;
+	min-width: 1250px;
+	width: 95%;
+}
+
+input[type="submit"] {
+	margin-top: 10px;
+}
+
+h1, h2 {
+	font: 15px Verdana;
+	color: #1e5eb6;
+	-webkit-text-stroke: 1px rgba(0,0,0,0);
+}
+
+img {
+	border: none;
+}
+
+a {
+	color: #006aeb;
+	padding: 3px 1px;
+}
+
+a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+
+#banner {
+	/*background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAB5CAMAAADPursXAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAGBQTFRFD1CRDkqFDTlmDkF1D06NDT1tDTNZDk2KEFWaDTZgDkiCDTtpDT5wDkZ/DTBVEFacEFOWD1KUDTRcDTFWDkV9DkR7DkN4DkByDTVeDC9TDThjDTxrDkeADkuIDTRbDC9SbsUaggAAAEdJREFUeNqkwYURgAAQA7DH3d3335LSKyxAYpf9vWCpnYbf01qcOdFVXc14w4BznNTjkQfsscAdU3b4wIh9fDVYc4zV8xZgAAYaCMI6vPgLAAAAAElFTkSuQmCC);*/
+	background: #0C2F52;  /* Show a solid color for older browsers */
+	background: -moz-linear-gradient(#0C2F52, #10569C);
+	background: -o-linear-gradient(#0C2F52, #10569C);
+	background: -webkit-linear-gradient(#0C2F52, #10569C);
+	border-radius: 12px 12px 0 0;
+}
+
+#banner h1 {
+	color: white;
+	font-size: 70px;
+	line-height: 121px;
+	margin: 0;
+	padding-left: 40px;
+	text-shadow: 3px 3px 0 rgba(0, 0, 0, .9);
+	filter: shadow(color=#000000, direction=135, Strength=4);
+}
+
+#content {
+	background: white;
+	border: 1px solid #eff4f7;
+	border-radius: 0 0 12px 12px;
+	padding: 10px 40px;
+}
+
+#content > h2 {
+	font-size: 130%;
+	color: #666;
+	clear: both;
+	padding: 1.2em 0;
+	margin: 0;
+}
+
+h2 span {
+	color: #87A7D5;
+}
+
+h2 a {
+	text-decoration: none;
+	background: transparent;
+}
+
+.icon {
+	padding-left: 24px;
+	background-position: 0 50%;
+	background-repeat: no-repeat;
+}
+
+.sign-in-form {
+	width: 400px;
+	margin: auto;
+}
+
+.sign-in-form h1 {
+	text-align: left;
+	margin-top: 0;
+	border-bottom: 1px solid;
+}
+
+.box {
+	font: 10px Verdana;
+	white-space: nowrap;
+	background: #f0f0f0;
+	margin-bottom: 10px;
+	padding: 3%;
+	border: 1px solid #e6e6e6;
+	border-radius: 5px;
+}
+
+
+.box img {
+	float: left;
+}
+
+.box p {
+	clear: both;
+}
+
+.box:nth-child(4n - 2) h2 {
+	color: #00a6e5;
+}
+
+.box:nth-child(4n - 2) img {
+	margin: -24px 0 0 -24px;
+}
+
+.box:nth-child(4n - 1) h2 a {
+	color: #db8e34;
+	background: transparent;
+}
+
+.box:nth-child(4n) {
+	margin: 0;
+}
+
+.box:nth-child(4n) h2 a {
+	color: #578404;
+	background: transparent;
+}
+
+.box th {
+	text-align: right;
+	padding-right: 20px;
+}
+
+body.js section {
+	display: none;
+}
+
+pre {
+	font-size: 10px;
+	line-height: 1.4;
+	padding: 10px;
+	margin: 1.3em 0;
+	overflow: auto;
+	max-height: 500px;
+	background: #F1F5FB;
+	border-radius: 5px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+}
+
+footer {
+	font-size: 9px;
+	padding: 1em 0;
+	text-align: center; 
+	color: gray;
+}
+
+#ajax-spinner {
+	margin: 15px 0 0 15px;
+	padding: 13px;
+	background: white url('../images/spinner.gif') no-repeat 50% 50%;
+	font-size: 0;
+	z-index: 123456;
+	display: none;
+}
+
+div.flash {
+	color: green;
+	background: #FFF9D7;
+	border: 1px solid #E2C822;
+	padding: 1em;
+	margin: 1em 0;
+	border-radius: 12px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+}
+
+div.flash.success {
+	background: #D1FF9F;
+	color: #264409;
+	border-color: #C6D880;
+}
+
+div.flash.info {
+	background: #FFF6BF;
+	color: #514721;
+	border-color: #FFD324;
+}
+
+div.flash.error {
+	background: #FFA6A6;
+	color: #8a1f11;
+	border-color: #FBC2C4;
+}
+
+
+a[href^="error:"] {
+	background: red;
+	color: white;
+}
+
+form tr, form td {
+	vertical-align: top;
+	font-weight: normal;
+}
+
+form .required label {
+	font-weight: bold;
+}
+
+form .error {
+	color: #D00;
+	font-weight: bold;
+}
+
+form input.alert {
+	border-color: red;
+}
+
+nav { 
+	height: 20px;
+	background: #ddd; /* Show a solid color for older browsers */
+	background: -moz-linear-gradient(#fff, #ddd);
+	background: -o-linear-gradient(#fff, #ddd);
+	background: -webkit-linear-gradient(#fff, #ddd);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dddddd'); /* for IE */
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+	border: 1px solid #eee;
+} 

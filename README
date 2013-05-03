@@ -1,0 +1,5 @@
+radec - radius easy configuration
+---------------------------------
+
+
+ALTER TABLE `radcheck` ADD `role` varchar(20) NOT NULL DEFAULT 'user';

@@ -1,0 +1,146 @@
+{**
+ * My Application layout template.
+ *
+ * @param string   $basePath web base path
+ * @param string   $robots   tell robots how to index the content of a page (optional)
+ * @param array    $flashes  flash messages
+ *}
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="">
+		<meta name="robots" content="{$robots}" n:ifset="$robots">
+
+		<title>{block title|striptags}radec{/block}</title>
+
+		<link rel="stylesheet" href="{$basePath}/css/bootstrap/bootstrap.min.css">
+		<link rel="stylesheet" href="{$basePath}/css/bootstrap/datepicker.css">
+
+		<!-- CSS pro Grido -->
+		<link rel="stylesheet" href="{$basePath}/css/grido/gh-fork-ribbon.css">
+		<!--[if IE]>
+		<link rel="stylesheet" href="{$basePath}/css/grido/gh-fork-ribbon.ie.css{scache}">
+		<![endif]-->
+		<link rel="stylesheet" href="{$basePath}/css/grido/style.css{scache}">
+		<link rel="stylesheet" href="{$basePath}/css/grido/grido.css{scache}">
+
+		<!-- Vzdy az na konec aby prepsali pripadne konflikty -->
+		<link rel="stylesheet" href="{$basePath}/css/grido-custom.css{scache}">
+		<link rel="stylesheet" media="screen,projection,tv" href="{$basePath}/css/screen.css{scache}">
+		<link rel="stylesheet" href="{$basePath}/css/menu.css{scache}">
+		<link rel="stylesheet" media="print" href="{$basePath}/css/print.css">
+		<link rel="shortcut icon" href="{$basePath}/favicon.ico">
+		
+		{block head}{/block}
+	</head>
+
+	<body>
+		<script> document.body.className+=' js' </script>
+
+		<div id="banner">
+			<h1>radec</h1>
+			<nav>
+				<div id="menu_container">
+					<ul class="sf-menu" id="nav">
+						{if $user->isInRole('admin')}
+						<li><a><i class="icon-user"></i> {_"Users"}</a>
+							<ul>
+								<li><a href="{link radacct:}"><i class="icon-tasks"></i> {_"Activity"}</a></li>
+								<li><a href="{link radcheck:}"><i class="icon-list"></i> {_"List and edit"}</a></li>
+								<li><a href="{link radcheck:add}"><i class="icon-plus-sign"></i> {_"New"}</a></li>
+							</ul>
+						</li>
+						<li><a><i class="icon-th"></i> {_"Groups"}</a>
+							<ul>
+								<li><a href="{link radgroupcheck:}"><i class="icon-list"></i> {_"List and edit"}</a></li>
+								<li><a href="{link radgroupcheck:add}"><i class="icon-plus-sign"></i> {_"New"}</a></li>
+							</ul>
+						</li>
+						<li><a><i class="icon-hdd"></i> {_"NAS"}</a>
+							<ul>
+								<li><a href="{link nas:}"><i class="icon-list"></i> {_"List and edit"}</a></li>
+								<li><a href="{link nas:add}"><i class="icon-plus-sign"></i> {_"New"}</a></li>
+							</ul>
+						</li>
+						{/if}
+					</ul>
+					<ul class="sf-menu" id="navLang">
+						<li><a href=""><i class="icon-flag"></i> {_"Language"}</a>
+							<ul>
+								<li><a n:href="this, lang => cs"><i class="icon-flag"></i> {_"Česky"}</a></li>
+								<li><a n:href="this, lang => en"><i class="icon-flag"></i> {_"English"}</a></li>
+							</ul>
+						</li>
+					</ul>
+					{if $user->isLoggedIn()}
+					<ul class="sf-menu" id="navUser">
+						<li><a href="{link Profile:}"><i class="icon-user"></i> {$user->getIdentity()->username}</a>
+							<ul>
+								<li><a href="{link Profile:}"><i class="icon-heart"></i> {_"Profile"}</a></li>
+								<li><a n:href="signOut!"><i class="icon-off"></i> {_"Sign out"}</a></li>
+							</ul>
+						</li>
+					</ul>
+					{/if}
+				</div>
+			</nav>
+		</div>
+
+		<div id="content">
+			{if $user->isLoggedIn()}
+				{if !$user->getIdentity()->email}
+					<div class="flash info"><a n:href="Profile:">{_"Please fill the missing email in your profile !"}</a></div>
+				{/if}
+				{if Nette\DateTime::from($user->getIdentity()->dateto)->getTimestamp() - Nette\DateTime::from(new DateTime())->getTimestamp() < 2592000}
+					<div class="flash error"><a n:href="Profile:">{_"Your account expires soon !"}</a></div>
+				{/if}
+			{/if}
+			
+			<div n:foreach="$flashes as $flash" class="flash {$flash->type}">{$flash->message}</div>
+
+			{snippet radacctNewForm}
+				{if isset($showRadacctNewForm)}{control radacctNewForm}{/if}
+			{/snippet}
+			{snippet radcheckNewForm}
+				{if isset($showRadcheckNewForm)}{control radcheckNewForm}{/if}
+			{/snippet}
+			{snippet radgroupcheckNewForm}
+				{if isset($showRadgroupcheckNewForm)}{control radgroupcheckNewForm}{/if}
+			{/snippet}
+
+			{include #content}
+
+			<footer>Copyright &copy; 2013 Jiri Eger | radius easy control | Powered by Nette Framework {=Nette\Framework::VERSION}</footer>
+		</div>
+
+		{block scripts}
+		<script src="{$basePath}/js/jquery/jquery-1.8.3.min.js"></script>
+        <script src="{$basePath}/js/jquery/jquery.hashchange.min.js"></script>
+        <script src="{$basePath}/js/jquery/jquery.maskedinput.min.js"></script>
+        <script src="{$basePath}/js/jquery/jquery.nette.js"></script>
+        <script src="{$basePath}/js/jquery/jquery.ajaxform.js"></script>
+		
+        <script src="{$basePath}/js/bootstrap/bootstrap.min.js"></script>
+        <script src="{$basePath}/js/bootstrap/bootstrap-datepicker.js"></script>
+        <script src="{$basePath}/js/bootstrap/bootstrap-datepicker.cs.js"></script>
+
+		<!-- JS pro Grido -->
+        <script src="{$basePath}/js/grido/jquery.grido.js{scache}"></script>
+        <script src="{$basePath}/js/grido/utils.js{scache}"></script>
+
+		<!-- Menu -->
+		<script src="{$basePath}/js/menu/jquery.easing-sooper.js"></script>
+		<script src="{$basePath}/js/menu/jquery.sooperfish.js"></script>
+
+		<script src="{$basePath}/js/netteForms.js"></script>
+		
+		<script type="text/javascript">
+			$(document).ready(function() {
+			$('ul.sf-menu').sooperfish();
+			});
+		</script>
+		{/block}
+	</body>
+</html>

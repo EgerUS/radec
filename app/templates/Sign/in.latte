@@ -1,0 +1,12 @@
+
+{block content}
+
+<div class="radcheck-add-form">
+
+	<div class="sign-in-form box">
+		<h1 n:block="title"><i class="icon-user"></i> {_"Login form"}</h1>
+		{include '../components/form.latte', form => $presenter[signInForm]}
+	</div>
+</div>
+
+{/block}
