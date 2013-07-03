@@ -189,7 +189,7 @@ final class RadgroupcheckPresenter extends BasePresenter
 				->setPrompt(Html::el('option')->setText($this->translator->translate('Select:'))->class('prompt'))
 				->setRequired('Please, select operator')
 				->setDefaultValue($radgroupcheckData->op);
-		$form->addText('value', 'Value:', 30, 60)
+		$form->addText('value', 'Value:', 30, 253)
 				->setRequired('Please, enter value')
 				->setAttribute('placeholder', $this->translator->translate('Enter value...'))
 				->addRule(Form::MAX_LENGTH, 'Value must be at max %d characters long', 253)
